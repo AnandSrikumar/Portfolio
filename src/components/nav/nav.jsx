@@ -33,16 +33,24 @@ const Nav = () => {
         <ul>
           
           <li>
-            <a href="#about">About</a>
+            <a href="#about" onClick={() => {
+        setIsNavExpanded(false)
+      }}>About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience" onClick={() => {
+        setIsNavExpanded(false)
+      }}>Experience</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services" onClick={() => {
+        setIsNavExpanded(false)
+      }}>Services</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={() => {
+        setIsNavExpanded(false)
+      }}>Contact</a>
           </li>
         </ul>
       </div>
