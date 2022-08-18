@@ -4,7 +4,9 @@ import './nav.css'
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (
+    
     <nav className="navigation">
+      
       <a href="#header"><h2>Srikumar Anand</h2></a>
 
       <button className="hamburger"
@@ -54,7 +56,9 @@ const Nav = () => {
           </li>
         </ul>
       </div>
+      
     </nav>
+    
   )
 }
 export default Nav

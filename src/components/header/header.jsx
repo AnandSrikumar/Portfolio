@@ -35,7 +35,7 @@ const Header = () => {
         </div>
         <div className="scroll-down">
           <h5>
-          Scroll down
+          <a href="#contact">Scroll down</a>
           </h5>
         </div>
       </div>

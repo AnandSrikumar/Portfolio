@@ -6,9 +6,11 @@ import Experience from "./components/experience/experience";
 import Services from "./components/services/services";
 import Footer from "./components/footer/footer";
 import Contact from "./components/contact/contact";
+
 const App = () => {
   return (
     <>
+    
       <Nav />
       <div class="dummy">.</div>
       <Header />
@@ -17,6 +19,7 @@ const App = () => {
       <Services />
       <Contact />
       <Footer />
+      
     </>
   );
 };
